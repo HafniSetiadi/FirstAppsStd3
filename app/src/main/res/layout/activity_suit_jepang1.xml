@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuitJepangActivity1">
+
+    <ImageView
+        android:id="@+id/ivChildA"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/fontvs"
+        android:padding="15dp"
+        android:text="Child A: VS/Pemain1-2/Draw" />
+
+    <ImageButton
+        android:id="@+id/imbKertasH"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/kertas"
+        android:layout_marginLeft="10dp"
+        android:text="Child B"
+        android:tooltipText="Child B" />
+
+    <ImageButton
+        android:id="@+id/imbKertasC"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/kertas"
+        android:layout_marginRight="10dp"
+        android:text="Child C"
+        android:tooltipText="Child c" />
+
+    <ImageButton
+        android:id="@+id/imbBatuH"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/imbKertasH"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/batu"
+        android:layout_marginLeft="10dp"
+        android:text="Child D"
+        android:tooltipText="Child D" />
+
+    <ImageButton
+        android:id="@+id/imbBatuC"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/imbKertasC"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/batu"
+        android:layout_marginRight="10dp"
+        android:text="Child E"
+        android:tooltipText="Child E" />
+
+    <ImageButton
+        android:id="@+id/imbGuntingH"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/imbKertasH"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/gunting"
+        android:layout_marginLeft="10dp"
+        android:text="Child F"
+        android:tooltipText="Child F" />
+
+    <ImageButton
+        android:id="@+id/imbGuntingC"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/imbKertasC"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/gunting"
+        android:layout_marginRight="10dp"
+        android:text="Child G"
+        android:tooltipText="Child G" />
+
+    <ImageView
+        android:id="@+id/ivFresh"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/ic_refresh"
+        android:layout_margin="10dp"
+        android:text="Child H"
+        android:tooltipText="Child H" />
+
+    <TextView
+        android:id="@+id/tvPemain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imbBatuH"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/cayene"
+        android:padding="10dp"
+        android:text="Pemain 1"
+        android:fontFamily="sans-serif"
+         />
+
+    <TextView
+        android:id="@+id/tvComputer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/imbBatuH"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/cayene"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="Computer" />
+
+    <ImageView
+        android:id="@+id/ivFontkgb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fontkgb3"
+        android:tooltipText="Child K " />
+
+</RelativeLayout>
